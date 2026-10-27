@@ -22,7 +22,7 @@ The spec lives in `.docs/BUILD-PLAN.md`. Follow its milestone order.
 
 ## Git
 
-- Follow `docs/git-conventions.md`: commits are `<type>: <subject>` (enforced by husky + commitlint), branches are `<type>/<short-title>`, PRs target `master`.
+- Follow `.docs/git-conventions.md`: commits are `<type>: <subject>` (enforced by husky + commitlint), branches are `<type>/<short-title>`, PRs target `master`.
 - Don't use `--no-verify`. If a hook fails, fix the cause.
 
 ## Layout

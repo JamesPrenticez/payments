@@ -1,4 +1,4 @@
-// Enforced by .husky/commit-msg. Slim Conventional Commits, see docs/git-conventions.md
+// Enforced by .husky/commit-msg. Slim Conventional Commits, see .docs/git-conventions.md
 
 /** @type {import("@commitlint/types").UserConfig} */
 export default {
