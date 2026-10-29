@@ -3,7 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "dev:fe": "pnpm --dir frontend dev",
+    "dev:be": "dotnet run --project backend/src/Payments.Api",
+    "dev": "concurrently -n fe,be -c cyan,magenta \"pnpm:dev:fe\" \"pnpm:dev:be\""
   },
   "lint-staged": {
     "*.{json,jsonc,css,md,yml,yaml,html}": [

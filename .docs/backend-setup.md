@@ -39,7 +39,8 @@ If the webapi template asks about controllers vs minimal APIs, either is fine. M
 
 3. Run it
 
-dotnet run --project backend/src/Payments.Api
+`dotnet run --project backend/src/Payments.Api`
+
 It prints a Now listening on: http://localhost:xxxx line. The template ships a sample /weatherforecast endpoint, so hit that to confirm it works. Check Properties/launchSettings.json for the port. Your frontend runs on 3000, so you'll need to allow that origin with CORS later.
 
 4. Next tasks from the milestone
