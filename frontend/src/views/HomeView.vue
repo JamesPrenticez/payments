@@ -1,5 +1,5 @@
 <script setup lang="ts" vapor>
-import TheWelcome from '../components/TheWelcome.vue'
+import EndPoints from '@/components/Endpoints.vue';
 import { useModalStore } from '../stores/modal'
 
 const modal = useModalStore()
@@ -8,6 +8,6 @@ const modal = useModalStore()
 <template>
   <main>
     <button @click="modal.open">Open modal</button>
-    <TheWelcome />
+    <EndPoints />
   </main>
 </template>
