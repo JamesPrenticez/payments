@@ -1,5 +1,5 @@
 <script setup lang="ts" vapor>
-import EndPoints from '@/components/Endpoints.vue';
+import EndPoints from '@/components/EndPoints.vue';
 import { useModalStore } from '../stores/modal'
 
 const modal = useModalStore()
